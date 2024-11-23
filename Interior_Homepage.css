@@ -1,0 +1,455 @@
+
+/* Font */
+
+.prompt-regular{
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poly-regular {
+    font-family: "Poly", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0%;
+  }
+
+    h1{
+    font-family: 'Poly', serif; /* Use Poly for headings */
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+
+h2{
+    font-size: 32px;
+    color: #101E28;
+    font-weight: 400;
+
+}
+
+h3{
+    font-family: 'Poly', serif; /* Use Poly for headings */
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0;
+  }
+
+.parag_12{
+    font-size: 12px;
+    color:#101E28;
+    text-align: center;
+}
+
+.parag_12_italic{
+    font-size: 12px;
+    color:#101E28;
+    font-style: italic;
+    text-align: center;
+}
+
+.parag_18{
+    font-size: 18px;
+    color:#4E565C;
+}
+
+.parag_18_black{
+    font-size: 18px;
+    color:#101E28;
+    margin: 0;
+}
+
+.parag_20{
+    font-size: 18px;
+    color:#4E565C;
+    font-weight: 100;
+}
+
+
+/* ======== LAYOUT SECTION ====== */ 
+
+body {
+    font-family: 'Prompt', sans-serif; /* Use Prompt for body text */
+    background-color: #FCFCFC;
+    margin-top:32px;
+    margin-bottom:0;
+    line-height:150%;
+  }
+  
+
+  /* ======== TOP SECTION ====== */ 
+  #section_1{
+    border-top: 1px solid #a1a1a1;  
+    border-bottom: 1px solid #a1a1a1;
+  
+  }
+  /* ======== COLLECTIONS ====== */ 
+  .collections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 164px;
+    padding-right: 164px;
+  }
+  /* ======== WHOLE MODEL ====== */ 
+  .collections_title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+  }
+
+  /* ======== TITLE HOLDER====== */ 
+
+  .Title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+
+   /* ======== SUBTITLE HOLDER====== */ 
+   .subtitle_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+   }
+
+  /* ======== LINES ====== */ 
+ /* ======== V LINES ====== */ 
+   .V-Border_1{
+    width: 1px;
+    height: auto;
+    background-color:#a1a1a1 ;
+   }
+
+   .V-Border_1{
+    width: 1px;
+    height: auto;
+    background-color:#a1a1a1 ;
+   }
+   .V-Border_2{
+    width: 1px;
+    height: auto;
+    background-color:#a1a1a1 ;
+   }
+   .V-Border_3{
+    width: 1px;
+    height: auto;
+    background-color:#a1a1a1 ;
+   }
+   .Vertical_line{
+    width: 1px;
+    height: auto;
+    background-color:#a1a1a1;
+    }
+
+
+ /* ======== H LINES ====== */ 
+ .H-Border_3{
+    width: auto;
+    height: 1px;
+    background-color:#a1a1a1;
+ }
+
+
+ 
+
+
+
+  /* ======== Header ====== */ 
+  #header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+
+/* ======== Navigation links ====== */ 
+  #nav_links{
+    border-top: 1px solid #a1a1a1;  
+    border-bottom: 1px solid #a1a1a1;
+  
+  }
+
+/* ======== Nav links ====== */ 
+
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    padding-left: 164px;
+    padding-right: 164px;
+
+}
+
+
+/* ======== nav link ====== */ 
+
+.nav_link :hover{
+    color: #101E28;
+    text-decoration: underline;
+    
+}
+
+.nav_link{
+    text-decoration: none;
+    padding-left:16px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:16px;
+    color: #4e565c;
+    
+}
+
+
+/* ======== Model section ====== */
+#model{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 164px;
+    padding-right: 164px;
+}
+
+/* ======== Model_section ====== */
+
+
+.model_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #a1a1a1;
+    padding-bottom: 16px;
+}
+
+/* ======== Bottom Model section ====== */ 
+.Bottom_model_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+/* ======== Model Text====== */ 
+.model_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ======== Section 2====== */ 
+#section_2{
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+    padding-left: 164px;
+    padding-right: 164px;
+    padding-top:64px;
+    padding-bottom:64px;
+}
+/* ======== About us ====== */
+.AboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+/* ======== Left ====== */ 
+.Left_AB{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+/* ======== Right ====== */
+.Right_AB{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+/* ======== Button ====== */ 
+.Button{
+    background-color: #101E28;
+    border-radius: 99px;
+    color: #FCFCFC;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 24px;
+    text-align: center;
+    width: 180px;
+}
+
+.Button:hover{
+    background-color: #7C8488;
+}
+
+
+/* ======== Grid Section ====== */ 
+#grid_system{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:64px;
+    padding-top:64px;
+    gap:24px;
+}
+
+/* ======== First Grid section ====== */ 
+.grid_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:24px;
+    padding-left: 164px;
+    padding-right: 164px;
+}
+
+
+/* ======== grid_item ====== */ 
+.grid_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #a1a1a1;
+    padding-bottom: 16px;
+}
+
+
+/* ======== Subtitle_grid ====== */ 
+.Subtitle_grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+/* ======== Pagination section ====== */ 
+
+#previous{
+    display: flex;
+    flex-direction: row;
+    gap:8px ;
+    margin: 0;
+    align-items: center;
+}
+
+#Next{
+    display: flex;
+    flex-direction: row;
+    gap:8px ;
+    margin: 0;
+    align-items: center;
+}
+
+.material-icons{
+    color: #101E28;
+    width:24px;
+  }
+
+  .list_container{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .H-Border_1{
+    width: 1px;
+    height: 16px;
+    background-color:#a1a1a1;
+ }
+
+ #pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:8px;
+    padding-bottom: 8px;
+    height: 32px;
+    margin: 0;
+    padding-left:96px;
+    padding-right: 96px ;
+    border-top: 1px solid #a1a1a1;  
+    border-bottom: 1px solid #a1a1a1;
+
+}
+
+
+
+/* ======== Footer section ====== */ 
+
+
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8px;
+    align-items: center;
+}
+
+.Align_center{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.footer_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+#main_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid #a1a1a1;  
+    border-bottom: 1px solid #a1a1a1;
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+
+.V-Border_5{
+    width: auto;
+    height: 1px;
+    background-color:#a1a1a1;
+    align-items: center;
+}
+
+#copyright{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+#footer{
+    background-color: #f0f0f0;
+}
+
